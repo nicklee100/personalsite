@@ -118,14 +118,11 @@ Contact Form
 
 #emailForm  {
   margin: 10px;
-/*  border: 2px solid red;
-*//*  display: block;
-*/  /*text-align: center;*/
+
 }
 
 #form {
-/*  border: dashed 1px red;
-*/  width: 50%;
+  width: 50%;
   margin: 0 auto;
 }
 
@@ -176,19 +173,3 @@ Contact Form
   padding-right: 10px;
 }
 
-/*a:link {
-  color: white
-
-}
-
-a:link:visisted {
-  color:yellow
-}*/
-
-a:active {
-
-}
-
-a:focus {
-
-}
