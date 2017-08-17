@@ -55,7 +55,8 @@ h4 {
 
 }
 
-h1,h3,h4,p,li,h2 {
+
+h1,h3,h4,p,li,h2, label {
   color:rgb(242,242,242);
   font-weight: 400;
 }
@@ -98,10 +99,61 @@ section {
 
 }
 
-#contact {
+
+/***
+
+Contact Form
+
+***/
+
+.contact {
+  text-align: center;
+  background-image: url('../assets/sanfran.jpg');
+  background-size: cover;
+  box-shadow: inset 0 0 0 500px rgba(36, 70, 105, 0.74);
+
+ 
+}
+
+
+#emailForm  {
+  margin: 10px;
+/*  border: 2px solid red;
+*//*  display: block;
+*/  /*text-align: center;*/
+}
+
+#form {
+/*  border: dashed 1px red;
+*/  width: 50%;
+  margin: 0 auto;
+}
+
+.formEntry {
+  display: block;
+  width: 90%;
+  margin-top:10px;
+  margin: 10px auto;
+  background: transparent;
+  color: white;
+  border-top:none;
+  border-left:none;
+  border-right:none;
+  border-bottom: 2px solid #707070;
 
 }
 
+.formEntry::placeholder {
+  color: white;
+}
+
+.formButton {
+  border: solid 2px #0fb8ad;
+  width:30%;
+  color: #0fb8ad;
+  border-radius: 3px;
+  padding: 10px;
+}
 
 #footer {
   padding-top: 50px;

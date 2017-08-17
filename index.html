@@ -110,17 +110,21 @@
       <section id="other_interests">
         
       </section>
-      <section id="contact">
-        <h3>Get In Touch</h3>
-        <form action="">
-          Name:<br>
-          <input type="text" name="name"><br>
-          Email<br>
-          <input type="text" name="email">
-          <input type="textarea">
-        </form>
 
+      <section id="layer" class='contact'>
+        <h3>Get In Touch</h3>
+        <div id='emailForm'>
+          <form id='form' method="POST" action="http://formspree.io/nicklee100@gmail.com">
+            <label for="emailEntry">Email</label>
+            <input id='emailEntry' class='formEntry' type="email" name="email" >
+            <label for="messageArea">Message</label>
+            <textarea id="messageArea" class='formEntry' name="message" ></textarea>
+            <button class='formEntry formButton' type="submit">Send Message</button>
+        </form>
+        </div>
+        
       </section>
+
       <footer id="footer">
         <a href="#top"> Back to top &raquo;</a>
         <ul>
