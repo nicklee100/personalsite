@@ -1,21 +1,158 @@
 <!doctype html>
 
+
 <html lang="en">
-<head>
-  <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8">
 
-  <title>The HTML5 Herald</title>
-  <meta name="description" content="The HTML5 Herald">
-  <meta name="author" content="SitePoint">
+    <title>Nick Lee 💯</title>
+    <meta name="description" content="The HTML5 Herald">
+    <meta name="author" content="SitePoint">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
+  </head>
 
-  <link rel="stylesheet" href="css/stylesheet.css">
+  <body> <!-- use body as wrapper, unless want full bg image-->
+    <div class="container">
+      <nav>
+        <ul>
+          <li>Projects</li>
+          <li>Paper Resume</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
 
-  <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-  <![endif]-->
-</head>
+      <section id="cover">
+        <h1>Nick Lee  </h1>
+        <img id='onehundred'src="./assets/100.png" alt="">
+        <h3>Fullstack Software Developer</h3>
+      </section>
 
-<body>
-  <script src="javascript/index.js"></script>
-</body>
+      <section id="introduction" style="border: solid 1px orange">
+        <div>
+          <h2>Hi, I'm Nick Lee!</h2>
+          <h4>I'm a fullstack software engineer speclaizing and passinote about in the JavaScirpt language and it's community. </h4>
+        </div>
+      
+        <div id='headShot'>
+          <img src="./assets/headshot.jpg" alt="">
+        </div>
+  
+
+        <div>
+          <p>
+            I'm a graduate of Hampshire College and Fullstack Academy of code, where I have been emersieng my self in all things technoloyg. I have experience developing and designing software for the web, from simple landing pages to progressive web applications. I strive to create software that not only functions efficiently under the hood, but also provides intuitive, pixel-perfect user experiences.
+          </p>
+          <p>I love learning new and better ways to create seamless user experiences with clean, efficient, and scalable code. I consider work an ongoing education, and I'm always looking for opportunities to work with those who are willing to share their knowledge as much as I want to learn. At the end of the day, my primary goal is to create something beautiful with people that bring out the best in me.</p>
+          <p>When I'm not programming, I'm probably logging miles riding my road bike</p>
+        </div>
+
+      </section>
+
+
+
+      <section style="border: solid 1px pink">
+        <div>
+          <h4>Development</h4>
+          <div>
+            <ul>
+              <li>JavaScript ES6</li>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>React.js</li>
+              <li>Node.js</li>
+              <li>Express.js</li>
+            </ul>
+          </div>
+        </div> <!-- Development-->
+        <div>
+          <h4>Tools</h4>
+          <ul>
+            <li>Git + Github</li>
+            <li>Webpack</li>
+            <li>Command Line</li>
+            <li>Amazon Web Services</li>
+          </ul>
+        </div>
+      </section>
+
+
+      <section id="experience">
+
+      </section>
+      <section id="projects">
+        <div id="wikiWeb">
+          <img src="../WikiWebScreenShot.png" alt="">
+          <h3>Wiki Web</h3>
+          <p>Check it out on the Chrome Store <a href="https://chrome.google.com/webstore/detail/wiki-web/ckfbjjiofppmjdeobopohbjhlmpdnmae">Here</a> </p>
+          <p>Wiki Web is  google chrome extension that visualizes a user’s Wikipedia habits. It was built from the idea to track what happens when we enter a <a href="http://www.urbandictionary.com/define.php?term=wiki-hole">Wiki-hole</a>. The app uses the D3.js libaray to make a visual graph struture to visual map our a user intellectual curiosity.  </p>
+          <p><link rel="stylesheet" href=""></p>
+          <ul>
+            <li>Chrome API</li>
+            <li>D3.js</li>
+            <li>React.js</li>
+            <li>Express.js</li>
+          </ul>
+        </div>
+
+        <div id="memeStore">
+          <img src="../memesrus.png" alt="">
+          <h3>Memes "R" Us</h3>
+          <p>Memes "R" Us is an online store for selling memes. It is built using Lorem ipsum dolor sit amet, et nam dapibus nec morbi egestas nunc. Venenatis ut conubia montes sit turpis, bibendum ultrices eu vivamus. </p>
+          <ul>
+            <li>React.js</li>
+            <li>Express.js</li>
+            <li>Sequelize.js</li>
+          </ul>
+        </div>
+
+      </section>
+      <section id="other_interests">
+        
+      </section>
+      <section id="contact">
+        <h3>Get In Touch</h3>
+        <form action="">
+          Name:<br>
+          <input type="text" name="name"><br>
+          Email<br>
+          <input type="text" name="email">
+          <input type="textarea">
+        </form>
+
+      </section>
+      <footer id="footer">
+        <a href="#top"> Back to top &raquo;</a>
+        <ul>
+          <li><a href="mailto:someone@example.com">email</a></li>
+          <li><a href="https://www.linkedin.com/in/nicklee100/">LinkedIn</a></li>
+          <li><a href="https://github.com/nicklee100">Github</a></li>
+        </ul>
+      </footer>
+
+      <script src="javascript/index.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </div>
+  </body>
 </html>
+
+
+
+   <!-- 
+      <section id="skills">
+        <h2>What I Do</h2>
+        <div>
+          <h4>Software Development</h4>
+          <p>I make web based software using the core tehcnologies of the web. Including the JavaScript Tech Stack</p>
+        </div>
+        <div>
+          <h4>Tech Stac</h4>
+          <ul>
+            <li>Node.js</li>
+            <li>Express.js</li>
+            <li>React.js</li>
+            <li>MySQL</li>
+          </ul>
+        </div>
+
+      </section> -->
