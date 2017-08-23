@@ -68,11 +68,9 @@ h1,h3,h4,p,li,h2, label {
   align-items:center;
 } 
 
-#cover h1 {
-}
 
 .cover-content {
-  border: solid 1px red;
+  
   text-align: center;
 }
 
@@ -84,19 +82,42 @@ h1,h3,h4,p,li,h2, label {
 }
 
 
-#headShot img {
-  display: block;
+#headShot  {
   border-radius: 100%;
+  float: right;
+
+}
+#introduction p {
+  width: 65%;
+} 
+.section-wrapper {
+  width: 90%;
+  margin: 0 auto;
 }
 
+.clearfix {
+      overflow: auto;
 
-
-#introduction {
-  background: black;
 }
 
 #skills {
-  background: orange;
+  background-image: url('../assets/services-xl.jpg');
+  background-size: cover;
+  position: relative;
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.8);
+
+}
+#technology-list {
+  color:white;
+  font-size:24px;
+}
+
+#technology-list i {
+  font-size: 42px;
+}
+
+.ico {
+  text-align: center; 
 }
 
 #experience {
@@ -108,6 +129,14 @@ h1,h3,h4,p,li,h2, label {
 
 #other_interests {
 
+}
+.layer {
+    background-color: rgba(24, 24, 21, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 /***
@@ -221,7 +250,6 @@ Media Query
     width: 100%;
   }*/
     #introduction {
-      background: gray;
     } 
 
     .container {

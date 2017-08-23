@@ -10,6 +10,8 @@
     <meta name="author" content="SitePoint">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
   </head>
 
   <body> <!-- use body as wrapper, unless want full bg image-->
@@ -25,58 +27,90 @@
  -->
       <section id="cover">
         <div class="cover-content">
-           <h1>Nick Lee  </h1>
-<!--           <img id='onehundred'src="./assets/100.png" alt="">
- -->          <h3>Fullstack Software Developer</h3>
+           <h1>Nick Lee <span><img id='onehundred'src="./assets/100.png" alt=""></span></h1>
+           <h3>Fullstack Software Developer</h3>
         </div>
       </section>
 
-      <section id="introduction" style="border: solid 1px orange">
-        <div >
+      <section class='section-wrapper clearfix' id="introduction">
           <h2>Hi, I'm Nick Lee!</h2>
-          <h4>I'm a fullstack software engineer speclaizing and passinote about in the JavaScirpt language and it's community. </h4>
-        </div>
-      
-        <div id='headShot'>
-          <img src="./assets/headshot.jpg" alt="">
-        </div>
-  
+          <img id='headShot' src="./assets/headshot.jpg" alt="">
 
-        <div>
+          <h4 style='width:45%'>I'm a fullstack software engineer speclaizing and passinote about in the JavaScirpt language and it's community. </h4>
           <p>
             I'm a graduate of Hampshire College and Fullstack Academy of code, where I have been emersieng my self in all things technoloyg. I have experience developing and designing software for the web, from simple landing pages to progressive web applications. I strive to create software that not only functions efficiently under the hood, but also provides intuitive, pixel-perfect user experiences.
           </p>
           <p>I love learning new and better ways to create seamless user experiences with clean, efficient, and scalable code. I consider work an ongoing education, and I'm always looking for opportunities to work with those who are willing to share their knowledge as much as I want to learn. At the end of the day, my primary goal is to create something beautiful with people that bring out the best in me.</p>
           <p>When I'm not programming, I'm probably logging miles riding my road bike</p>
-        </div>
-
       </section>
 
-
-
-      <section style="border: solid 1px pink">
-        <div>
+      <section  id='skills' style="border: solid 1px black">  <!-- this is preventin collaopsing margins -->
+        <div class='section-wrapper'>
+          <h2>Technical Skills.</h2>
           <h4>Development</h4>
-          <div>
-            <ul>
-              <li>JavaScript ES6</li>
-              <li>HTML5</li>
-              <li>CSS3</li>
-              <li>React.js</li>
-              <li>Node.js</li>
-              <li>Express.js</li>
-            </ul>
+          <div id='technology-list'>
+              <div class='icon'>
+                <i class="devicon-javascript-plain colored"></i>
+                <p>JavaScript ES6</p> 
+              </div>
+
+              <div class='icon'> 
+                <i class="devicon-html5-plain colored"></i>
+                <p>  HTML5 </p> 
+              </div>
+
+              <div class='icon'> 
+                <i class="devicon-css3-plain colored"></i>
+                <p>  CSS3 </p> 
+              </div>
+
+              <div class='icon'> 
+                <i class="devicon-react-original colored"></i>
+                <p>  React.js</p>  
+              </div>
+
+              <div class='icon'> 
+                <i class="devicon-nodejs-plain colored"></i>
+                <p>  Node.js</p> 
+              </div>
+
+              <div class='icon'> 
+                <i class="devicon-express-original"></i>
+                <p>  Express.js</p> 
+              </div>
+
+              <div class='icon'> 
+                <i class="devicon-sequelize-plain colored"></i>
+                <p>  Sequelize </p> 
+              </div>
+
+              <div class='icon'> 
+                <i class="devicon-postgresql-plain colored"></i>
+                <p>  Postresql </p> 
+              </div>
+
+              <div class='icon'> 
+                <i class="devicon-jquery-plain colored"></i>
+                <p>  JQuery </p> 
+              </div>
+
+              <div class='icon'> 
+                <i class="devicon-github-plain colored"></i>
+                <p>  Git + Github</p>  
+              </div>
+
+              <div class='icon'> 
+                <i class="devicon-webpack-plain colored"></i>
+                <p>  Webpack</p>  
+              </div>
+
+              <div class='icon'> 
+                <i class="devicon-amazonwebservices-original colored"></i>
+                <p>  Amazon Web Services </p> 
+              </div>
+              
           </div>
-        </div> <!-- Development-->
-        <div>
-          <h4>Tools</h4>
-          <ul>
-            <li>Git + Github</li>
-            <li>Webpack</li>
-            <li>Command Line</li>
-            <li>Amazon Web Services</li>
-          </ul>
-        </div>
+         <div> 
       </section>
 
 
