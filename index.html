@@ -13,23 +13,26 @@
   </head>
 
   <body> <!-- use body as wrapper, unless want full bg image-->
-    <div class="container">
-      <nav>
+    <div class="wrap">
+      <!-- <nav>
         <ul>
           <li>Projects</li>
           <li>Paper Resume</li>
           <li>Contact</li>
         </ul>
-      </nav>
-
+      </nav> -->
+<!--       <div class="container">
+ -->
       <section id="cover">
-        <h1>Nick Lee  </h1>
-        <img id='onehundred'src="./assets/100.png" alt="">
-        <h3>Fullstack Software Developer</h3>
+        <div class="cover-content">
+           <h1>Nick Lee  </h1>
+<!--           <img id='onehundred'src="./assets/100.png" alt="">
+ -->          <h3>Fullstack Software Developer</h3>
+        </div>
       </section>
 
       <section id="introduction" style="border: solid 1px orange">
-        <div>
+        <div >
           <h2>Hi, I'm Nick Lee!</h2>
           <h4>I'm a fullstack software engineer speclaizing and passinote about in the JavaScirpt language and it's community. </h4>
         </div>
@@ -82,20 +85,27 @@
       </section>
       <section id="projects">
 
-        <div id="wikiWeb">
-          <img src="../WikiWebScreenShot.png" alt="">
-          <h3>Wiki Web</h3>
-          <p>Check it out on the Chrome Store <a href="https://chrome.google.com/webstore/detail/wiki-web/ckfbjjiofppmjdeobopohbjhlmpdnmae">Here</a> </p>
-          <p>Wiki Web is  google chrome extension that visualizes a user’s Wikipedia habits. It was built from the idea to track what happens when we enter a <a href="http://www.urbandictionary.com/define.php?term=wiki-hole">Wiki-hole</a>. The app uses the D3.js libaray to make a visual graph struture to visual map our a user intellectual curiosity.  </p>
-          <p><link rel="stylesheet" href=""></p>
-          <ul>
-            <li>Chrome API</li>
-            <li>D3.js</li>
-            <li>React.js</li>
-            <li>Express.js</li>
-          </ul>
+        <div id="wikiWeb" style="background-color: white; margin: 10px;">
+          <div class="projectLeft">
+            <h4>This is the image here</h4>
+            <img src="../WikiWebScreenShot.png" alt="">
+          </div>
+
+          <div class="projectRight">
+            <h3>Wiki Web</h3>
+            <p>Check it out on the Chrome Store <a href="https://chrome.google.com/webstore/detail/wiki-web/ckfbjjiofppmjdeobopohbjhlmpdnmae">Here</a> </p>
+            <p>Wiki Web is  google chrome extension that visualizes a user’s Wikipedia habits. It was built from the idea to track what happens when we enter a <a href="http://www.urbandictionary.com/define.php?term=wiki-hole">Wiki-hole</a>. The app uses the D3.js libaray to make a visual graph struture to visual map our a user intellectual curiosity.  </p>
+            <p><link rel="stylesheet" href=""></p>
+            <ul>
+              <li>Chrome API</li>
+              <li>D3.js</li>
+              <li>React.js</li>
+              <li>Express.js</li>
+            </ul>
+          </div>
+          
         </div>
-        
+
 
         <div id="memeStore">
           <img src="../memesrus.png" alt="">
@@ -126,8 +136,8 @@
         </div>
         
       </section>
-
-      <footer id="footer">
+<!--       </div> <!-- container -->
+ -->      <footer id="footer">
         <a href="#top"> Back to top &raquo;</a>
         <ul>
           <li><a href="mailto:someone@example.com">email</a></li>
@@ -138,7 +148,7 @@
 
       <script src="javascript/index.js"></script>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    </div>
+    </div> <!-- WRAP -->
   </body>
 </html>
 
