@@ -87,8 +87,14 @@ h1,h3,h4,p,li,h2, label {
   float: right;
 
 }
+#introduction {
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
 #introduction p {
   width: 65%;
+  font-size: 18px;
+  line-height: 22px;
 } 
 .section-wrapper {
   width: 90%;
@@ -96,8 +102,7 @@ h1,h3,h4,p,li,h2, label {
 }
 
 .clearfix {
-      overflow: auto;
-
+  overflow: auto;
 }
 
 #skills {
@@ -108,24 +113,39 @@ h1,h3,h4,p,li,h2, label {
 
 }
 #technology-list {
+  height: 500px;
   color:white;
   font-size:24px;
+  display: flex;
+  flex-wrap: wrap;
+ 
 }
 
 #technology-list i {
   font-size: 42px;
 }
 
-.ico {
-  text-align: center; 
+.icon {
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 30%;       /* this needs to be addressed*/
+  margin: 0 auto;
+}
+.icon p  {
+  margin-top: 12px;
 }
 
 #experience {
 
 }
 
-#projects {
-}
+/*#projects {
+  height: 50vh;
+
+}*/
 
 #other_interests {
 
@@ -144,17 +164,39 @@ h1,h3,h4,p,li,h2, label {
 Projects
 
 ***/
-#wikiweb{
-  width: 100%;
-}
 
-.projectLeft {
+
+/*.projectLeft {
   display: inline-block;
   border: solid 1px green;
-  height: 300px;
   background-image: url('../assets/WikiWebScreenShot.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 200px;
+}*/
 
+.projectLeft {
+  margin: 5px;
 }
+
+#wikiWeb {
+  padding-top: 10px;
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+}
+
+
+/*width 560 height 315*/
+#wikiWebVideo {
+  margin: 5px;
+}
+
+
+
+
+
 
 .projectRight {
   display: inline-block;
