@@ -69,11 +69,12 @@ a {
   display: flex;
   justify-content: center;
   align-items:center;
+  background-attachment: fixed;
 } 
 
 
 .cover-content {
-  
+
   text-align: center;
 }
 
@@ -219,6 +220,24 @@ Projects
 #memeStore  {
   text-align: center;
 }
+.project-tech {
+  list-style: none;
+}
+
+.project-tech li {
+  display: inline;
+  margin: 15px;
+  background-color: #333;
+/*  background-color: rgb(66,66,66);
+*/  /*color: rgb(135,135,135);*/
+  color: #777;
+  padding: 5px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1px;
+
+}
 
 /*#memeStore div {
   border: solid 3px blue;
@@ -253,7 +272,7 @@ Contact Form
 
 #contactWrapper {
   border: solid 2px green;
-  padding: 40px;
+  padding: 40px;  /* check this against margin ,padding*/
 }
 
 
