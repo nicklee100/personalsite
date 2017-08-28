@@ -125,9 +125,9 @@
         </div>
 
         <div id="wikiWeb" >
-          <div class="projectLeft">
+      <!--     <div class="projectLeft">
             <img src="../assets/WikiWebScreenShot.png" alt="">
-          </div>
+          </div> -->
 
           <div id='wikiWebVideo'>
              <iframe width="645" height="400" src="https://www.youtube.com/embed/6q9HRgGjYSM?rel=0&amp;start=67" frameborder="0" allowfullscreen></iframe>
@@ -136,14 +136,18 @@
 
 
         <div id="memeStore">
-          <img src="../memesrus.png" alt="">
-          <h3>Memes "R" Us</h3>
-          <p>Memes "R" Us is an online store for selling memes. It is built using Lorem ipsum dolor sit amet, et nam dapibus nec morbi egestas nunc. Venenatis ut conubia montes sit turpis, bibendum ultrices eu vivamus. </p>
-          <ul>
-            <li>React.js</li>
-            <li>Express.js</li>
-            <li>Sequelize.js</li>
-          </ul>
+          <div id='memeDescription'>
+            <h3>Memes "R" Us</h3>
+            <p>Memes "R" Us is an online store for selling memes. It is built using Lorem ipsum dolor sit amet, et nam dapibus nec morbi egestas nunc. Venenatis ut conubia montes sit turpis, bibendum ultrices eu vivamus. </p>
+            <ul>
+              <li>React.js÷</li>
+              <li>Express.js</li>
+              <li>Sequelize.js</li>
+            </ul>
+          </div>
+          <img src="../assets/memesrus.png" alt="">
+
+        
         </div>
 
       </section>
@@ -152,20 +156,22 @@
       </section>
 
       <section id="layer" class='contact'>
-        <h3>Get In Touch</h3>
-        <div id='emailForm'>
-          <form id='form' method="POST" action="http://formspree.io/nicklee100@gmail.com">
-            <label for="emailEntry">Email</label>
-            <input id='emailEntry' class='formEntry' type="email" name="email" >
-            <label for="messageArea">Message</label>
-            <textarea id="messageArea" class='formEntry' name="message" ></textarea>
-            <button class='formEntry formButton' type="submit">Send Message</button>
-        </form>
+        <div id = "contactWrapper">
+          <h3>Get In Touch</h3>
+          <div id='emailForm'>
+            <form id='form' method="POST" action="http://formspree.io/nicklee100@gmail.com">
+              <label for="emailEntry">Email</label>
+              <input id='emailEntry' class='formEntry' type="email" name="email" >
+              <label for="messageArea">Message</label>
+              <textarea id="messageArea" class='formEntry' name="message" ></textarea>
+              <button class='formEntry formButton' type="submit">Send Message</button>
+          </form>
+          </div>
         </div>
-        
       </section>
 <!--       </div> <!-- container -->
- -->      <footer id="footer">
+      <footer id="footer">
+
         <a href="#top"> Back to top &raquo;</a>
         <ul>
           <li><a href="mailto:someone@example.com">email</a></li>

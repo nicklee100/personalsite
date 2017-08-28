@@ -189,7 +189,10 @@ Projects
   margin: 0 auto;
 }
 
-#wikiWebDescription img { display: inline-block;}
+#wikiWebDescription img { 
+  margin-top: 20px;
+  display: inline-block;
+}
 #wikiWebDescription h2 { display: inline-block}
 #wikiWebDescription p { font-size: 18px;}
 #wikiWeb {
@@ -208,8 +211,21 @@ Projects
   margin: 5px;
 }
 
+#memeStore {
+  border: solid red 1px;
+}
 
 
+#memeStore  {
+  text-align: center;
+}
+
+/*#memeStore div {
+  border: solid 3px blue;
+  width: 90%;
+  margin:0 auto;       
+  vertical-align: top;
+}*/
 
 
 
@@ -233,6 +249,11 @@ Contact Form
   background-image: url('../assets/sanfran.jpg');
   background-size: cover;
   box-shadow: inset 0 0 0 500px rgba(36, 70, 105, 0.74);
+}
+
+#contactWrapper {
+  border: solid 2px green;
+  padding: 40px;
 }
 
 
