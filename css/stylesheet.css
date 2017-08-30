@@ -103,6 +103,7 @@ a {
 .section-wrapper {
   width: 90%;
   margin: 0 auto;
+  height: 90vh;
 }
 
 .clearfix {
@@ -190,9 +191,11 @@ Projects
   margin: 0 auto;
 }
 
+
 #wikiWebDescription img { 
   margin-top: 20px;
   display: inline-block;
+  height: 130px;
 }
 #wikiWebDescription h2 { display: inline-block}
 #wikiWebDescription p { font-size: 18px;}
@@ -213,13 +216,21 @@ Projects
 }
 
 #memeStore {
-  border: solid red 1px;
-}
+/*  border: solid red 1px;
+*/}
 
 
 #memeStore  {
   text-align: center;
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 20px;
 }
+
+#memeDescription {
+
+}
+
 .project-tech {
   list-style: none;
 }
@@ -284,10 +295,14 @@ Contact Form
   width: 50%;
   margin: 0 auto;
 }
+#form label {
+  display: block;
+  text-align: left;
+}
 
 .formEntry {
   display: block;
-  width: 90%;
+  width: 100%;
   margin-top:10px;
   margin: 10px auto;
   background: transparent;
@@ -333,6 +348,16 @@ Contact Form
   padding-right: 10px;
 }
 
+.divider {
+  border-bottom: solid 2px rgb(20,185, 189);
+  width: 10%;
+  margin-left: 5%;
+}
+
+.divider-middle {
+  margin: 10% 0% 10% 5%;
+
+}
 
 /* 
 Media Query
