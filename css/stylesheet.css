@@ -61,7 +61,6 @@ a {
 }
 
 
-
 #cover {
   height: 101vh;
   background-image: url('../assets/acadianightsky.jpg');
@@ -73,9 +72,7 @@ a {
   background-attachment: fixed;
 } 
 
-
 .cover-content {
-
   text-align: center;
 }
 
@@ -104,8 +101,8 @@ a {
 .section-wrapper {
   width: 90%;
   margin: 0 auto;
-  height: 90vh;
-}
+/*  height: 90vh; not really need just fill with content
+*/}
 
 .clearfix {
   overflow: auto;
@@ -124,14 +121,13 @@ a {
   font-size:24px;
   display: flex;
   flex-wrap: wrap;
- 
 }
 
-#technology-list i {
+.tech-icon {
   font-size: 42px;
 }
 
-.icon {
+.icon-wrapper {
   text-align: center;
   padding-left: 10px;
   padding-right: 10px;
@@ -180,7 +176,6 @@ Projects
   text-align: center;
   width: 90%;
   margin: 0 auto;
-
 }
 
 .project-logo {
@@ -245,7 +240,6 @@ Contact Form
 }
 
 #contactWrapper {
-  border: solid 2px green;
   padding: 40px;  /* check this against margin ,padding*/
 }
 
@@ -326,23 +320,90 @@ Contact Form
 Media Query
 */
 
+  @media (max-width: 530px) {
 
-  @media (min-width: 769px) {
-   
-/*  footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-  }*/
-    #introduction {
+    #cover {
+      height: 50vh;
     } 
 
-    .container {
-      width: 100%;
-      max-width: 1000px; 
-      margin: 0 auto;
-      min-height: 90vh-100px; 
-
+    .project-media iframe {
+      width: 95%;
+      height: 50%
     }
-  }
+
+    .project-media img {
+      width: 95%;
+      height: 50%;
+    }
+
+   
+    .project-tech {
+      list-style: none;
+      padding: 0px;  /* not sure where 40px left is from*/
+    }
+
+    .project-tech li {
+      display: block;
+      
+      background-color: #333;
+      color: #777;
+      padding: 5px;
+      border-radius: 3px;
+      text-transform: uppercase;
+      font-size: 14px;
+      letter-spacing: 1px;
+    }
+
+    .section-wrapper {
+      width: 100%;
+      margin: 0 auto;
+      padding-left: 5px;
+    }
+
+    #introduction h2 {
+      display: none;
+    }
+    #introduction h4 {
+      display: inline-block;
+      color:white;
+      width: 100%
+    }
+    #headShot {
+      display: block;
+      margin: auto;
+      float: none;
+    }
+
+    #introduction p {
+      width: 95%;
+      font-size: 18px;
+    }
+
+    .tech-icon {
+      font-size: 1.0em;
+    }
+    .icon-wrapper p {
+      font-size: .6em;
+    }
+
+
+    #emailForm  {
+      margin: 0px;
+    }
+
+    #form {
+      width: 100%;
+      margin: 0 auto;
+    }
+    #form label {
+      display: block;
+      text-align: left;
+    }
+
+    .formButton {
+      width:77%;
+    }
+  } 
+
+
 
