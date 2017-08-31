@@ -40,6 +40,7 @@ h1 {
 
 h2 {
   font-size: 42px;
+  margin: 0px;
 }
 
 h3 {
@@ -169,37 +170,29 @@ a {
 Projects
 
 ***/
+.projects { 
+  margin-top: 20px; 
+  margin-bottom: 20px;
+  text-align: center;
+} 
 
-
-/*.projectLeft {
-  display: inline-block;
-  border: solid 1px green;
-  background-image: url('../assets/WikiWebScreenShot.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 300px;
-  width: 200px;
-}*/
-
-.projectLeft {
-  margin: 5px;
-}
-#wikiWebDescription {
-/*  border: solid 1px blue;
-*/  text-align: center;
+.project-container {
+  text-align: center;
   width: 90%;
   margin: 0 auto;
+
 }
 
-
-#wikiWebDescription img { 
+.project-logo {
   margin-top: 20px;
   display: inline-block;
   height: 130px;
 }
-#wikiWebDescription h2 { display: inline-block}
-#wikiWebDescription p { font-size: 18px;}
-#wikiWeb {
+
+.project-container p { font-size: 18px;}
+
+
+.project-media {
   padding-top: 10px;
   display: flex;
   flex-direction:row;
@@ -209,27 +202,13 @@ Projects
   border: solid 2px red;
 }
 
-
-/*width 560 height 315*/
-#wikiWebVideo {
-  margin: 5px;
+.project-media iframe {
+  width: 645px;
+  height: 400px;
 }
 
-#memeStore {
-/*  border: solid red 1px;
-*/}
+/* orgional of video width 560 height 315*/
 
-
-#memeStore  {
-  text-align: center;
-  width: 90%;
-  margin: 0 auto;
-  padding-bottom: 20px;
-}
-
-#memeDescription {
-
-}
 
 .project-tech {
   list-style: none;
@@ -249,22 +228,6 @@ Projects
   letter-spacing: 1px;
 
 }
-
-/*#memeStore div {
-  border: solid 3px blue;
-  width: 90%;
-  margin:0 auto;       
-  vertical-align: top;
-}*/
-
-
-
-.projectRight {
-  display: inline-block;
-  border: solid 3px red;
-  padding: 50px;
-}
-
 
 
 
